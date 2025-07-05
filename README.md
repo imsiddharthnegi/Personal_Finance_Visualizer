@@ -2,20 +2,17 @@
 
 A modern, responsive web application for tracking personal finances with beautiful visualizations and comprehensive budgeting features. Built with Next.js, React, shadcn/ui, Recharts, and MongoDB.
 
-## 🚀 Live Demo
-
-**Deployment URL**: [To be deployed on Vercel]
 
 ## ✨ Features
 
-### Stage 1: Basic Transaction Tracking ✅
+###  1: Basic Transaction Tracking ✅
 - **Complete CRUD Operations**: Add, edit, and delete transactions with full validation
 - **Transaction Management**: Track amount, date, description, and categories
 - **Interactive Charts**: Monthly expenses visualization with Recharts
 - **Form Validation**: Comprehensive input validation with user-friendly error messages
 - **Responsive Design**: Works seamlessly on desktop and mobile devices
 
-### Stage 2: Categories & Dashboard ✅
+### 2: Categories & Dashboard ✅
 - **Predefined Categories**: 10 expense categories (Food & Dining, Transportation, Shopping, etc.)
 - **Category Analytics**: Beautiful pie chart showing spending breakdown by category
 - **Dashboard Summary**: 
@@ -24,7 +21,7 @@ A modern, responsive web application for tracking personal finances with beautif
   - Recent transactions overview with quick access
 - **Real-time Updates**: All data updates instantly across components
 
-### Stage 3: Budgeting & Insights ✅
+### 3: Budgeting & Insights ✅
 - **Budget Management**: Set monthly spending limits for each category
 - **Budget Tracking**: Visual comparison of budgeted vs actual spending
 - **Smart Insights**: 
@@ -93,9 +90,7 @@ A modern, responsive web application for tracking personal finances with beautif
 3. **Environment Setup**
    Create a `.env.local` file:
    ```env
-   MONGODB_URI=mongodb://localhost:27017/personal-finance
-   # For MongoDB Atlas (recommended for deployment):
-   # MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/personal-finance
+  
    ```
 
 4. **Start MongoDB** (if using local installation)
