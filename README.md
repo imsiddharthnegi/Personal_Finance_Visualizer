@@ -177,32 +177,7 @@ personal-finance-visualizer/
 - `GET /api/analytics/monthly-expenses` - Monthly expense trends
 - `GET /api/analytics/budget-comparison?month=YYYY-MM` - Budget vs actual comparison
 
-## 🌐 Deployment
-
-### Vercel Deployment (Recommended)
-
-1. **Push to GitHub**
-   ```bash
-   git add .
-   git commit -m "Ready for deployment"
-   git push origin main
    ```
-
-2. **Deploy to Vercel**
-   - Import your GitHub repository to Vercel
-   - Set environment variable: `MONGODB_URI`
-   - Deploy automatically
-
-3. **Environment Variables**
-   Set in Vercel dashboard:
-   ```
-   MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/personal-finance
-   ```
-
-### Alternative Deployment Options
-- **Netlify**: Compatible with static export
-- **Railway**: Full-stack deployment with MongoDB
-- **DigitalOcean App Platform**: Container-based deployment
 
 ## 🎯 Evaluation Criteria Compliance
 
